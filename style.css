@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:white;
+    font-family: "Poppins",sans-serif;
+    
+}
+.navigation{
+    position:absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+}
+#container1{
+    width: 100%;
+    height: 80vh;
+}
+.image1{
+    width: 100%;
+    height: 100%;
+  object-fit: cover;
+}
+.buttons{
+    background-color: #e50914;
+    float: right;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+    border-radius: 3px;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+.logo{
+    height: 36px;
+    width: 134px;
+}
+.overlay{
+    position: absolute;
+    inset:0;
+    width: 100%;
+    height: 80vh;
+    background:rgba(0, 0,0, 0.4);
+   
+}
+.first_para{
+position: absolute;
+top: 20%;
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 10px;
+border: 1px solid white;
+
+}
+#container2{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.containerz{
+    border-top: solid grey 8px;
+}
+#container3{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.image_container{
+width: 100%;
+max-width: 500px;
+position: relative;
+border: 10px solid wheat;
+}
+.video{
+position: absolute;
+width: 100%;
+top: 0%;
+left: 13%;
+height: 100%;
+max-width: 73%;
+max-height: 54%;
+z-index: -2;
+
+}
+#container4{
+    width: 100%;
+    height: 30vh;
+    /* border-top: solid white 5px; */
+}
+#container5{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+#container6{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+#container7{
+    width: 100%;
+    height: 60vh;
+}
+#container8{
+    width: 100%;
+    height: 50vh;
+}
+#footer{
+    padding-top: 100px;
+    padding-left: 300px;
+    font-family: 'Times New Roman';
+}
+td{
+    text-align: left;
+    width: 200px;
+    padding: 10px;
+}
+a:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+    
+  a:hover {
+    color:white;
+    text-decoration: underline;
+  }
+  
+ 
